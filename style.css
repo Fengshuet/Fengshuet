@@ -266,6 +266,14 @@ span.max{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    transition: 1s ease;
+}
+
+.reiki-image:hover{
+    width: 155px;
+    height: 155px;
+    transition: 1s ease;
 }
 
 .reflexologie-image{
@@ -278,7 +286,17 @@ span.max{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    transition: 1s ease;
 }
+
+.reflexologie-image:hover{
+    width: 155px;
+    height: 155px;
+    transition: 1s ease;
+}
+
+
 .soins-esseniens-image{
     width: 150px;
     height: 150px;
@@ -289,7 +307,36 @@ span.max{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    transition: 1s ease;
 }
+
+.soins-esseniens-image:hover{
+    width: 155px;
+    height: 155px;
+    transition: 1s ease;
+}
+
+.pranagenealogie-image{
+    width: 150px;
+    height: 150px;
+    margin: 10px 0px;
+    border-radius: 2px;
+    
+    background-image: url(Images/arbre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    transition: 1s ease;
+}
+
+.pranagenealogie-image:hover{
+    width: 155px;
+    height: 155px;
+    transition: 1s ease;
+}
+
 .interligne-min-gold{
     width: 200px;
     height: 10px;
@@ -373,10 +420,12 @@ footer{
 
 .map-responsive iframe {
  left:0;
- bottom:10px;
- width: 100%;
+ bottom: 30px;
+ width: 70%;
+ margin: 0 15% 0 15%;
+
  height:100%;
- position:relative;
+ padding-bottom: 40px;
 }
 
 .bloc{
@@ -388,8 +437,7 @@ margin: 10px 30px;
 .footer-contact h4,
 .footer-quicklinks h4{
     font-size: 20px;
-    padding-bottom: 20px;
-
+    padding-bottom: 5px;
 }
 
 .list-quicklinks a:hover{

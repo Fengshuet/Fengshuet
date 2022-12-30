@@ -115,16 +115,111 @@ nav ul li ul.dropdown-menu.sticky{
     z-index:999;
     display:none;
     border-radius: 3px;
-    /* box-shadow: 1px 1px 4px #5e17eb; */
     font-weight: 400;
     transition: 1s ease-in-out;
-
-
 }
 
 
 
 nav ul li:hover ul.dropdown-menu{
     display: block;
+}
 
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/chrysanthemum-757439.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 0 15% 0 15%;
+    width: 70%;
+    height: 20vh;
+
+    border: 1px solid #b88917;
+}
+
+.cadre-footer{
+    width: 100%;
+    height: 20vh;
+    margin: 10px ;
+    overflow: hidden;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+   border: 1px solid #5e17eb;
+} 
+
+.map-responsive iframe {
+ left:0;
+ bottom: 30px;
+ width: 70%;
+ margin: 0 15% 0 15%;
+
+ height:100%;
+ padding-bottom: 40px;
+}
+
+.bloc{
+width: 25%;
+margin: 10px 30px;
+}
+
+.footer-adress h4,
+.footer-contact h4,
+.footer-quicklinks h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.list-quicklinks a:hover{
+    color: #5e17eb;
 }
